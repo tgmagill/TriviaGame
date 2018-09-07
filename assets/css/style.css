@@ -1,0 +1,51 @@
+
+body{
+	background-image: url(../images/sports.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+.container{
+	background-color: grey;
+	width: 75%;
+}
+
+#header{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 56px;
+}
+
+.title{
+	margin: 25px;
+}
+.title, .counter-container, .question, .answer, .start-button, .score-container, .startAgain-container, .correct-answer-container{
+	margin: 25px;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#start-again{
+	width: auto;
+}
+
+.answer:hover, .start-button:hover, .startAgain-container:hover{
+	background-color:blue;
+	border-style: solid;
+}
+
+.score-container {
+	margin-left: 37.2%;
+	width: 25%;	
+}
+
+#counter, #question1{
+	font-weight: bold;
+}
+
+.question-answers-counter{
+	padding-bottom: 1px;
+}
